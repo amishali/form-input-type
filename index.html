@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>form input type </title>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <link href="css/styles.css" rel="stylesheet" type="text/css">
+      <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+      <script src="js/scripts.js"></script> 
+   </head>
+   <body>
+       <h1>trying to learn form input type </h1>
+       <h2>select box</h2>
+       <p>lets start with a Simple select boxes (where the user can only select one item)
+            are pretty easy to implement.</p> 
+            <select class="form-control" id="beverage">
+                <option value="1">Coffee</option>
+                <option value="2">Tea</option>
+                <option value="3">Kombucha</option>
+                <option value="4">Water</option>
+              </select>
+            <h1>radio buttons</h1>
+           <p>Radio buttons allow the user to select one and only one option from a list.</p> 
+           <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate" checked>
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="vanilla">
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="cookiesandcream">
+              Cookies & Cream
+            </label>
+          </div>
+          <h1>Checkboxes</h1>
+          <p> Checkboxes work similarly to radio buttons, but allow users to select multiple options. 
+              Because we want to be able to collect all of a user's selections, 
+              we will first need to learn about something called an array, which we will do shortly. 
+              In its simplest form, an array is simply a list of multiple items packaged together.</p>
+              
+              <h2> date</h2>
+              <p>what is your birthday date</p>
+              <div class="form-group">
+                <label for="born">Date of birth:</label>
+                <input id="born" class="form-control" type="date">
+              </div>
+        <h1>color</h1>
+      <p3> You may not have seen this one before! The color form input type,
+         when clicked, opens a special panel where users can fine-tune and select specific colors:</p3>
+       <p1>what is your favourite color</p1>  
+       <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+   </body>
+   </html>
